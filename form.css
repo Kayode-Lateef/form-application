@@ -1,0 +1,80 @@
+
+.container{
+    background-color: #000000;
+}
+
+form{
+    width: 100%;
+}
+
+form label{
+    font-size: 20px !important;
+    color: #fff;
+}
+
+
+form .warning{
+    display: block;
+    background-color: #FDEAEB;
+    color:#C91C1F;
+    padding: 8px;
+}
+
+.input-group{
+    position: relative;
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-bottom: 1px solid #C91C1F;
+    
+}
+
+
+input::placeholder {
+    position: absolute;
+    top:0;
+    left: 0;
+    margin: 0 10px;
+    padding: 5px 0;
+    pointer-events: none;
+    transition: .5s;
+  }
+  
+  input:focus::placeholder{
+    top: -5px;
+    left: 0;
+    color: #aaa;
+    /* outline: none !important;
+    border: none !important; */
+    font-size: 12px !important;
+  }
+
+
+form .input-group-text{
+    background-color: #fff;
+
+}
+
+form i {
+    font-size: 24px !important;
+    color: #C91C1F;
+}
+
+form i.card {
+    font-size: 24px !important;
+    color: #aaa;
+}
+
+form i.first-name {
+    font-size: 24px !important;
+    color: #A6DD8A;
+    background-color: #fff;
+}
+
+form span i.cc{
+    font-size: 28px !important;
+    margin-right: 10px;
+}
+
+.fa-cc-visa{
+    color: rgb(10, 10, 95);
+}
